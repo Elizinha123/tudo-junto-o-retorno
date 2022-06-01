@@ -49,3 +49,5 @@ const [resposta] = await con.query(comando, [id]);
 return resposta.affectedRows;
 
 }
+
+ex

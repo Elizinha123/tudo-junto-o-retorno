@@ -114,4 +114,17 @@ erro:err.message
 
 })
 
+
+server.get('/filme' , async (req, resp) => {
+    try{
+
+    } catch(err){
+
+        resp.status(400).send({
+        
+        erro:err.message
+        
+        })
+})
+
 export default server;
